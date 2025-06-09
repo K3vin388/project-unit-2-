@@ -1,6 +1,60 @@
 /* The code below makes the background of the header black and the font color of the title white. Change this to match what you want for your website. */
 header {
-    background-color: black;
-    color: white;
-    padding: 128px 16px;
+    background-color: rgb(22, 37, 202);
+    color: black;
+    padding: 20px 500px;
+    font-size: larger;
+    background: #2A7B9B;
+background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 60%, rgba(237, 221, 83, 1) 100%);
+}
+
+.body {
+    font-size: larger;
+    
+}
+.section {
+    margin:auto;
+    width: 50%;
+    
+    
+}
+body {
+    text-align: center;  
+    background: #2A7B9B;
+background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 60%, rgba(237, 221, 83, 1) 100%);
+}
+.section1 { 
+    margin: auto;
+    width: 70%;
+    padding: 50px;
+    background-color: white;
+    border-radius: 10px;
+    content: 100px;
+
+}
+
+.paragraph1 {
+    font-size: 20px;
+}
+
+
+.paragraph2 {
+    font-size: 20px;
+}
+
+.ul { 
+    /* list-style-type: none; */
+    margin:0;
+    padding: 0;
+}
+a:link {
+    color: black;
+    text-decoration-line:none;
+}   
+
+.li2 { 
+    display:inline;
+}   
+.ul{
+    list-style: none;
 }
